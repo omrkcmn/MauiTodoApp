@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/omerkocaman/Projects/ToDoApp/ToDoApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/ToDoApp.app/Contents/MonoBundle/libSystem.Native.dylib

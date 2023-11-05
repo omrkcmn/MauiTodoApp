@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/omerkocaman/Projects/ToDoApp/ToDoApp/bin/Debug/net7.0-ios/iossimulator-x64/ToDoApp.app/libSystem.IO.Compression.Native.dylib

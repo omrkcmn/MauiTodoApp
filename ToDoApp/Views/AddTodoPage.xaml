@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoApp.Views.AddTodoPage"
+             Title="Ekle">
+    <StackLayout VerticalOptions="StartAndExpand" Margin="20" Spacing="10" WidthRequest="320" HorizontalOptions="CenterAndExpand"
+                 >
+        <Entry  Placeholder="Başlık" Text="{Binding Title}" />
+
+        <Entry Placeholder="İçerik" Text="{Binding Content}"/>
+
+        <Button Command="{Binding Save}" Text="Kaydet"/>
+    </StackLayout>
+</ContentPage>
